@@ -2,11 +2,11 @@
   <form>
     <div class="box column">
 
-      <p class="title">Ingrese su número de cuenta</p>
+      <p class="title">Ingrese su número de cuenta bancaria</p>
       <div class="block">
         <div class="field is-grouped">
           <div class="control is-expanded">
-            <input class="input" type="number" placeholder="Número de cuenta bancaria"
+            <input class="input" type="number" placeholder="Número de cuenta"
               v-model="accountNum">
           </div>
           <div class="control">
