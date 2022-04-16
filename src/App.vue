@@ -68,11 +68,10 @@ function boxScene() {
   document.body.onscroll = () => {
     let scrollTop = (window.scrollY || doc.scrollTop) - (doc.clientTop || 0);
 
-    console.log('scrollTop', scrollTop);
     let visible = scrollTop < 15000;
     document.getElementsByTagName('canvas')[0].style.visibility = visible ? "initial" : "hidden";
 
-    scrollTop *= 0.00125;
+    scrollTop *= 0.0025;
     animate(scrollTop);
   }
 }
@@ -89,7 +88,7 @@ canvas {
 
 main {
   width: 100vw;
-  height: 1700vh;
+  height: 840vh;
   position: absolute;
 }
 </style>

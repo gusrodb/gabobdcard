@@ -17,7 +17,7 @@
 
       <div class="notification is-success" v-bind:style="'display: ' + successMsgDisplay">
         <button class="delete" type="button" @click.prevent="hideMsg"></button>
-        Para que ni siquiera pueda ver los billetes, su regalo de cumpleaños será transferido directamente a la cuenta indicada.
+        Su regalo ha sido consignado en la cuenta indicada.
       </div>
 
     </div>
